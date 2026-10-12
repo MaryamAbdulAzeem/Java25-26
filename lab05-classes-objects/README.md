@@ -1,19 +1,17 @@
-# Lab 5 – Classes & Objects: Computer Tracker
+# Lab 5 – Classes & Objects
 
-A Java program that models computers a company buys for its employees, practicing class design, object creation and method calls.
+Two Java programs practicing class design, object creation and method calls.
 
-## Computer class
-**Attributes:** person name, purchase cost, CPU speed, age (months), memory size
+## 1. Computer Tracker
+Models computers a company buys for its employees.
 
-**Methods:**
-- Default constructor, getters and setters, and `setAll()` to update all attributes at once
-- `sell()`: calculates the resale price (50% discount if older than 24 months, otherwise 25%)
-- `ageInSeconds()`: converts the computer's age from months to seconds
-- `upgradeMemory()`: adds memory, without letting the total exceed 256 GB
-- `toString()`: returns the computer's details, including its current resale price
+- **`Computer`**: stores the user's name, purchase cost, CPU speed, age (months) and memory size. Includes constructors, getters, `setAll()`, `sell()` (resale price: 50% off if older than 24 months, otherwise 25% off), `ageInSeconds()` and `toString()`.
+- **`ComputerMainDriver`**: creates three computers, prints their details, updates one with keyboard input, and prints a computer's age in seconds.
 
-## Test program
-Creates three `Computer` objects, prints their details, updates one with user input, and tests memory upgrades against the 256 GB limit.
+## 2. Books Expenses
+**`BooksExpenses`**: tracks a student's number of books and total spending, with methods to buy and sell books and print the updated totals.
 
-**Concepts:** classes and objects, constructors, encapsulation (getters/setters), instance methods, `toString()`
+**Concepts:** classes and objects, constructors, getters and setters, encapsulation, instance methods, `toString()`
 
+## Course
+Object-Oriented Design in Java (1501246), University of Sharjah
