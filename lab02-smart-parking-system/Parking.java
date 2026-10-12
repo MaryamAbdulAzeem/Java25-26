@@ -1,7 +1,7 @@
 /**
  * This is a simple program to help in calculating the parking fee
- * @ version 1.0
- * @ author Maryam Abdul Azeem
+ * @version 1.0
+ * @author Maryam Abdul Azeem
  */
 package Java_Labs.Lab2;
 import java.util.*;
