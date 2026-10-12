@@ -4,7 +4,7 @@ A Java program that reads college data from a text file into an array of objects
 
 ## Classes
 - **`College`**: stores a college's name, number of departments, students and faculty members. A **static** counter tracks how many `College` objects have been created. Includes getters, setters, `setAll()` and `toString()`.
-- **`CollegeDemo`**: reads each line of `college.txt`, creates a `College` object from it, stores it in an array, and prints every college's details.
+- **`CollegeDemo`**: reads each line of `colleges.txt`, creates a `College` object from it, stores it in an array, and prints every college's details.
 
 ## Analysis methods
 - `findAvg()`: returns the average number of students per college
