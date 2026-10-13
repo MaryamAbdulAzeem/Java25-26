@@ -15,5 +15,7 @@ Draws the United Arab Emirates flag using JavaFX `Rectangle` and `Color` classes
 **Concepts:** JavaFX `Application`, `Stage` and `Scene`, `VBox` and `Pane` layouts, `Text` and `Font`, `Rectangle`, `Color`, random colour generation
 
 ## Running
-Requires the JavaFX SDK to be configured in your project (JavaFX is not included in the standard JDK since Java 11).
+Requires the JavaFX SDK. If you're using a modular JavaFX project (for example, IntelliJ's JavaFX template), add your project's package declaration as the first line of each file, e.g.:
+
+`package com.example.demo;`
 
