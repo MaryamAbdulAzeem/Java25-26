@@ -9,6 +9,7 @@ Stores an IPv4 address (e.g. `255.123.60.91`) as four parts.
 - A method to set all four parts in one statement, plus getters for each part
 - A **static counter** tracking the total number of `IPAddress` objects created
 - `PrintIP()`: displays the address in dotted format
+- An overridden `equals()` method that compares two addresses part by part, used to detect duplicates, search and delete
 
 ## Test program
 Reads IP addresses from the keyboard until a sentinel value (`-1`) is entered, skipping duplicates, and stores up to 100 addresses in an array. Then offers a menu to:
