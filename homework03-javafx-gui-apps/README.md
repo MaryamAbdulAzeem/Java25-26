@@ -8,20 +8,29 @@ Draws a traffic light in a 200×300 window, using a `Rectangle` for the body and
 ![Traffic light](traffic-light.png)
 
 ## 2. Calculator
-A working calculator with number and operator buttons, a display, and event handlers that perform the calculations when buttons are clicked.
+A fully working calculator modelled on the Windows calculator, built with a `GridPane` of buttons generated from a 2D array.
+- Basic operations (+, −, ×, ÷) plus %, 1/x, x², √x and ± (sign change)
+- **C**, **CE** and **⌫** (backspace) for clearing and editing input
+- A history line above the display showing the current calculation
+- Edge-case handling: dividing by zero, 0 ÷ 0, the square root of a negative number, and repeated decimal points
+- Whole-number results display without a trailing `.0`
+- Hover and press effects on the buttons
 
-![Calculator](calculator.png)
+![Calculator demo](calculator.gif)
 
 ## 3. Motivational Quote Counter
-Shows one motivational quote at a time from an array of quotes, with a title, quote display area and counter label. Four buttons:
+Shows one quote at a time from a set of five, including quotes from UAE leaders and classical Arab poets. Four buttons:
 - **Count:** increases the counter by 1
 - **Reset:** sets the counter back to 0
-- **Next / Previous:** move through the quotes and reset the counter
+- **Next / Previous:** move through the quotes and reset the counter, wrapping around at either end like a circular list
 
-![Quote counter](quote-counter.png)
+Features a gradient background, a fixed-size quote area that keeps the layout stable, and hover and press effects on the buttons.
 
-**Concepts:** JavaFX shapes (`Rectangle`, `Circle`), layouts (`GridPane`, `VBox`, `HBox`, `BorderPane`), `Button` and `Label` controls, event handling with lambdas, arrays
+![Quote counter demo](quote-counter.gif)
+
+**Concepts:** JavaFX shapes (`Rectangle`, `Circle`), layouts (`GridPane`, `VBox`, `HBox`), `Button`, `Label` and `TextField` controls, event handling with lambdas, mouse events, 1D and 2D arrays
 
 ## Running
-Requires the JavaFX SDK to be configured in your project.
+Requires the JavaFX SDK. If you're using a modular JavaFX project (for example, IntelliJ's JavaFX template), add your project's package declaration as the first line of each file, e.g.:
 
+`package com.example.demo;`
