@@ -20,4 +20,6 @@ A simple arcade-style game built with JavaFX. A ball bounces around the screen, 
 **Concepts:** JavaFX animation with `Timeline` and `KeyFrame`, mouse event handling with lambdas, collision detection, `BorderPane` and `FlowPane` layouts, buttons and labels
 
 ## Running
-Requires the JavaFX SDK to be configured in your project.
+Requires the JavaFX SDK. If you're using a modular JavaFX project (for example, IntelliJ's JavaFX template), add your project's package declaration as the first line of each file, e.g.:
+
+`package com.example.demo;`
