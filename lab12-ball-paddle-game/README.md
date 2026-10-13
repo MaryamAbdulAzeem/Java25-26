@@ -12,9 +12,10 @@ A simple arcade-style game built with JavaFX. A ball bounces around the screen, 
 - **Play** and **Stop** buttons start and pause the animation.
 
 ## My extensions
-- [Extension 1, e.g. a Reset button that repositions the ball and sets the score back to 0]
-- [Extension 2, e.g. the ball speeds up every 5 points]
-- [Extension 3, if any]
+- **Animated starfield background:** 1,000 small stars drift down a black-to-purple gradient using a second `Timeline`, creating a space theme
+- **Glowing ball:** a drop-shadow effect gives the ball a neon glow
+- **Increasing difficulty:** every 5 points, the ball speeds up by 1.5× and changes to a random colour
+- **Reset button:** repositions the ball, resets the score and speed, and re-enables the paddle
 
 **Concepts:** JavaFX animation with `Timeline` and `KeyFrame`, mouse event handling with lambdas, collision detection, `BorderPane` and `FlowPane` layouts, buttons and labels
 
